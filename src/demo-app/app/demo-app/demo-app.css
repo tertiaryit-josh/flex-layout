@@ -62,6 +62,29 @@ div.coloredContainerX > div:nth-child(5), div.coloredChildren > div:nth-child(5)
   background-color: #5ca6b0;
 }
 
+div.colored > div:nth-child(6), div.coloredContainerX > div:nth-child(6), div.coloredChildren > div:nth-child(6), div.colorNested > div > div:nth-child(6) {
+  background-color: #7163b0;
+}
+
+div.colored > div:nth-child(7), div.coloredContainerX > div:nth-child(7), div.coloredChildren > div:nth-child(7), div.colorNested > div > div:nth-child(7) {
+  background-color: #b07a62;
+}
+
+div.colored > div:nth-child(8), div.coloredContainerX > div:nth-child(8), div.coloredChildren > div:nth-child(8), div.colorNested > div > div:nth-child(8) {
+  background-color: #6ab092;
+}
+
+div.colored > div:nth-child(9), div.coloredContainerX > div:nth-child(9), div.colorNested > div > div:nth-child(9), div.colorNested > div > div:nth-child(9){
+  background-color: #b7bdbb;
+}
+
+div.colored > div:nth-child(10), div.coloredContainerX > div:nth-child(10), div.colorNested > div > div:nth-child(10), div.colorNested > div > div:nth-child(10) {
+  background-color: #58997f;
+}
+
+div.colored > div:nth-child(11), div.coloredContainerX > div:nth-child(11), div.colorNested > div > div:nth-child(11), div.colorNested > div > div:nth-child(11) {
+  background-color: #838aab;
+}
 div.colored > div {
   padding: 8px;
   box-shadow: 0px 2px 5px 0 rgba(52, 47, 51, 0.63);

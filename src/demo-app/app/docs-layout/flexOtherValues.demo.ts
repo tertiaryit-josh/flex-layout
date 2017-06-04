@@ -16,10 +16,15 @@ import {Component} from '@angular/core';
             <div fxFlex>            [flex]              </div>
             <div fxFlex="nogrow">   [flex="nogrow"]     </div>
             <div fxFlex="grow">     [flex="grow"]       </div>
+            
+            <div fxFlex="33.33%">   [flex="33.33%"]     </div>
+            <div fxFlex="33.33%">   [flex="33.33%"]     </div>
+            <div fxFlex="33.33%">   [flex="33.33%"]     </div>
+            
             <div fxFlex="initial">  [flex="initial"]    </div>
             <div fxFlex="auto">     [flex="auto"]       </div>
-            <div fxFlex="noshrink"> [flex="noshrink"]   </div>
             <div fxFlex="0">        [flex="0"]          </div>
+            <div fxFlex="noshrink"> [flex="noshrink"]   </div>
           </div>          
         </div>
       </md-card-content>

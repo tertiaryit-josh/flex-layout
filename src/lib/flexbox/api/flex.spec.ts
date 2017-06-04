@@ -89,6 +89,13 @@ describe('flex directive', () => {
         'box-sizing': 'border-box',
       });
     });
+    fit('should work with percentage values', () => {
+      expectDOMFrom(`<div fxFlex="33.33%"></div>`).toHaveCssStyle({
+        'flex': '1 1 100%',
+        'max-width': '33.33%',
+        'box-sizing': 'border-box',
+      });
+    });
     it('should work with pixel values', () => {
       expectDOMFrom(`<div fxFlex="37px"></div>`).toHaveCssStyle({
         'flex': '1 1 37px',
